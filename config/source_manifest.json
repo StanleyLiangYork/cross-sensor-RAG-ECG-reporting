@@ -1,0 +1,130 @@
+{
+  "assembled_on": "2026-10-26",
+  "manuscript": "draft03.docx",
+  "manuscript_sha256": "15231a016cc54a760efaae20e4cb1d274e548fcb184e29d71c3c418572ec3a2e",
+  "structure_reference": "https://github.com/StanleyLiangYork/ECG_CXR_alignment",
+  "structure_reference_commit": "375601515acc2f4a5480fc1d54a0903c63520398",
+  "copy_policy": "Selected notebooks and Python builder scripts copied byte-for-byte from notebook2. Supporting release files copied from the reference repository. Numerical reproduction has not been run.",
+  "files": [
+    {
+      "path": "notebooks/00_environment_and_configuration.ipynb",
+      "source": "notebook2/00_environment_and_configuration.ipynb",
+      "sha256": "4a115c0eeabfa8760b48b2a6ea11fb71bd71f1582c1a54cbe664ebb24666a639"
+    },
+    {
+      "path": "notebooks/01_verify_symile_ecg_cxr_pairs.ipynb",
+      "source": "notebook2/01_verify_symile_ecg_cxr_pairs.ipynb",
+      "sha256": "dfb980c1732aa0ddf83a6f4cfd16482c69b0ed84aa14a27ca3a053aa7247dc71"
+    },
+    {
+      "path": "notebooks/02_build_ecg_cxr_pair_manifests.ipynb",
+      "source": "notebook2/02_build_ecg_cxr_pair_manifests.ipynb",
+      "sha256": "367a772188475949095574aba072e65b9796e5d10a0ddfd866e6b64255f97e95"
+    },
+    {
+      "path": "notebooks/03_encode_ecg_hubert.ipynb",
+      "source": "notebook2/03_encode_ecg_hubert.ipynb",
+      "sha256": "caf504ad3742d1d2708ce923a37c2da8f0615f772096982c3951bad7f41c5f4e"
+    },
+    {
+      "path": "notebooks/04_encode_cxr_raddino.ipynb",
+      "source": "notebook2/04_encode_cxr_raddino.ipynb",
+      "sha256": "d9b5efe7bf69f48ae142c6a38b52fc001e1bac8eb85f2bde8edc93eeee311570"
+    },
+    {
+      "path": "notebooks/05_define_ecg_cxr_codebind.ipynb",
+      "source": "notebook2/05_define_ecg_cxr_codebind.ipynb",
+      "sha256": "ab241258fb5c15ef25976ba6e806fbc2e834ae06f1267164672709834fd1b82b"
+    },
+    {
+      "path": "notebooks/06_train_ecg_cxr_bridge.ipynb",
+      "source": "notebook2/06_train_ecg_cxr_bridge.ipynb",
+      "sha256": "72263f0048ff505104cdb8e4ae700c236bc13031a6a9a5d55d0f07f334d2b206"
+    },
+    {
+      "path": "notebooks/07_evaluate_ecg_cxr_bridge.ipynb",
+      "source": "notebook2/07_evaluate_ecg_cxr_bridge.ipynb",
+      "sha256": "7920e4a622e79118647c9e50ac3bf2f4f131d85c66fa8d3cbd8d456351306852"
+    },
+    {
+      "path": "notebooks/08_external_mimic_adapter_contract.ipynb",
+      "source": "notebook2/08_external_mimic_adapter_contract.ipynb",
+      "sha256": "bde3903b61f0aad8720aa3855cb452e9c08203350bb406c6c1323c87cfb0f99d"
+    },
+    {
+      "path": "notebooks/09_external_ablation_design_and_configuration.ipynb",
+      "source": "notebook2/09_external_ablation_design_and_configuration.ipynb",
+      "sha256": "dddbf2844c410081861f12a96b9aa4806aed6290ef0414d517ee275be8bb6fd0"
+    },
+    {
+      "path": "notebooks/10_prepare_external_ecg_mimic.ipynb",
+      "source": "notebook2/10_prepare_external_ecg_mimic.ipynb",
+      "sha256": "3edef5db53e9ab3e6b7f9b80abce5175895890bf84d9815f7cd5a214e98a21f6"
+    },
+    {
+      "path": "notebooks/11_prepare_external_cxr_mimic.ipynb",
+      "source": "notebook2/11_prepare_external_cxr_mimic.ipynb",
+      "sha256": "efd3a9a4ed35e18573c7a23698dbb7b5e84f758cb8da1c8d00a6332c47ca260c"
+    },
+    {
+      "path": "notebooks/12_train_symile_bridge_ablations.ipynb",
+      "source": "notebook2/12_train_symile_bridge_ablations.ipynb",
+      "sha256": "70190837012581c026dd8fc47b74688465b0feaeacde2ab8b811686d209760ab"
+    },
+    {
+      "path": "notebooks/13_encode_external_modalities_with_shared_codebook.ipynb",
+      "source": "notebook2/13_encode_external_modalities_with_shared_codebook.ipynb",
+      "sha256": "2667347707518118ee1c144187e88c96c8dfb89e5174ac63b9ae2d42d7378598"
+    },
+    {
+      "path": "notebooks/14_encode_external_text_and_concepts.ipynb",
+      "source": "notebook2/14_encode_external_text_and_concepts.ipynb",
+      "sha256": "8badbf4b5435622aca044295334143843c89ae89f3f3e09f21bd4b714ebee933"
+    },
+    {
+      "path": "notebooks/15_train_external_semantic_adapters.ipynb",
+      "source": "notebook2/15_train_external_semantic_adapters.ipynb",
+      "sha256": "2b187d984b48d8b5b131de5b88a7cdd99ea56bf31ac6873a598a47471027127e"
+    },
+    {
+      "path": "notebooks/16_evaluate_external_retrieval_ablations.ipynb",
+      "source": "notebook2/16_evaluate_external_retrieval_ablations.ipynb",
+      "sha256": "de7f6fc11fb2e19fab68a15d318effd57f73873d368b2a776f7ba03108464802"
+    },
+    {
+      "path": "notebooks/17_configure_rag_report_generation.ipynb",
+      "source": "notebook2/17_configure_rag_report_generation.ipynb",
+      "sha256": "9023219e10f5def9341a6ddc82d53a34f9c0f681d82a34f2bd39f897f2f47d66"
+    },
+    {
+      "path": "notebooks/18_build_rag_retrieval_contexts.ipynb",
+      "source": "notebook2/18_build_rag_retrieval_contexts.ipynb",
+      "sha256": "f9398ae0f3e36394e72887db3b738cf53d75ee08a8fdc866b8e808e2a449b72e"
+    },
+    {
+      "path": "notebooks/19_generate_rag_reports.ipynb",
+      "source": "notebook2/19_generate_rag_reports.ipynb",
+      "sha256": "54708b084d6fde221ee0904fd2a136d135f3f383b48fb35e152f7bd036eeb6fe"
+    },
+    {
+      "path": "notebooks/20_evaluate_rag_report_generation.ipynb",
+      "source": "notebook2/20_evaluate_rag_report_generation.ipynb",
+      "sha256": "955e1d3c1ce10f5cb41de6f69d55ff4983a4c23bfe29af9734ca16483d35de68"
+    },
+    {
+      "path": "notebooks/_build_ecg_focused_rag_notebooks.py",
+      "source": "notebook2/_build_ecg_focused_rag_notebooks.py",
+      "sha256": "5cf3ba514e13904843163c8cf5558020d7cf426510bb82870ddb1765637fefc6"
+    },
+    {
+      "path": "notebooks/_build_external_ablation_notebooks.py",
+      "source": "notebook2/_build_external_ablation_notebooks.py",
+      "sha256": "a23d70e0c19de10a36c85785dc88949583069948d4b03cc4fba4df2ff328551d"
+    },
+    {
+      "path": "notebooks/_build_rag_report_generation_notebooks.py",
+      "source": "notebook2/_build_rag_report_generation_notebooks.py",
+      "sha256": "7ef7ed4042ce036ad96db572dff4387ec2586d7ace3d756108fb7bbb5f56a662"
+    }
+  ]
+}
