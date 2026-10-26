@@ -3,7 +3,6 @@
 Zhaohui Liang, Niccolo Marini, Sivaramakrishnan Rajaraman, Zhiyun Xue, and Sameer Antani  
 Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA
 
-This repository packages the ECG–CXR research pipeline corresponding to `draft03.docx`. It contains the selected Project 01 (`notebook2`) notebooks and Python builder scripts. The layout follows [ECG_CXR_alignment](https://github.com/StanleyLiangYork/ECG_CXR_alignment).
 
 The study tests three questions: whether same-admission ECG–CXR pairing is learnable, whether the bridge transfers to external semantic compatibility, and whether retrieved context improves ECG report generation. Continuous alignment is the reference method; vector-quantized bridges are architectural ablations.
 
