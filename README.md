@@ -34,12 +34,6 @@ The 21 numbered notebooks and three Python scripts are unchanged copies of the s
 
 The package matches the manuscript's experimental design. The research notebooks have no saved execution outputs. Dataset records, model checkpoints, generated reports, and numerical result files are not included. Packaging and static checks do not establish reproduction of the manuscript's numerical results; that requires the original run artifacts or a complete rerun with the specified data and environment.
 
-The following files and branches are deliberately outside this release:
-
-- `20_evaluate_rag_report_generation2.ipynb`: alternative extraction rules that differ from the manuscript's named evaluation version.
-- `finetune_medgemma15_4b_multitask_lora_rank32_5fold.ipynb`: separate fine-tuning work; the manuscript uses frozen generators.
-- Project 02 (`experiment3`): follow-up audits and matched-ECG-context experiments.
-- `experiment3/trimodal`: additional laboratory-data experiments outside the two-modality paper.
 
 ## Data and model requirements
 
