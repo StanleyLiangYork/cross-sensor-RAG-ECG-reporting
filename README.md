@@ -1,10 +1,9 @@
-# Cross Sensor Multimodal RAG Integrating ECG and CXR Evidence for ECG Report Generation
+# Cross-Sensor Retrieval-Augmented ECG Reporting: Semantic Compatibility and Diagnostic Agreement
 
 Zhaohui Liang, Niccolo Marini, Sivaramakrishnan Rajaraman, Zhiyun Xue, and Sameer Antani  
 Division of Intramural Research, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA
 
-
-The study tests three questions: whether same-admission ECG–CXR pairing is learnable, whether the bridge transfers to external semantic compatibility, and whether retrieved context improves ECG report generation. Continuous alignment is the reference method; vector-quantized bridges are architectural ablations.
+Retrieval-augmented generation (RAG) may support electrocardiogram (ECG) reporting with information from other modalities. We investigated whether chest radiograph (CXR) reports selected through cross-sensor associations provide useful context for ECG interpretation. Continuous and vector-quantized bridges were trained on 10,000 admission-matched ECG–CXR pairs without diagnostic text, followed by text-supervised external adaptation with frozen bridges. Continuous, quantized, and rank-fused retrieval supplied ECG-only, CXR-only, or mixed contexts to frozen, medically adapted MedGemma 1.5-4B and general-purpose Qwen3.5-4B. Eleven conditions across 250 held-out queries produced 5500 reports, evaluated against automated references across 12 diagnostic categories. Verified-pair bridges outperformed shuffled-pair controls in paired retrieval. External ECG-to-CXR Hit@1 was 0.349 among eligible queries, representing 8.3% of evaluated queries; text supervision precluded attributing semantic performance exclusively to verified pairing. ECG-only retrieval yielded the highest micro-F1 point estimates: 0.255 for MedGemma and 0.156 for Qwen, versus zero-shot values of 0.182 and 0.033. Continuous and quantized methods had similar numerical performance; rank fusion offered selective advantages. CXR-containing contexts provided no consistent diagnostic agreement benefit. These results demonstrate learnable sensor-only alignment and semantically enriched retrieval after adaptation. The framework supports systematic evaluation of contextual evidence and its contribution to ECG reporting in biomedical RAG.
 
 ## Repository layout
 
@@ -33,7 +32,6 @@ The 21 numbered notebooks and three Python scripts are unchanged copies of the s
 ## Scope and reproducibility status
 
 The package matches the manuscript's experimental design. The research notebooks have no saved execution outputs. Dataset records, model checkpoints, generated reports, and numerical result files are not included. Packaging and static checks do not establish reproduction of the manuscript's numerical results; that requires the original run artifacts or a complete rerun with the specified data and environment.
-
 
 ## Data and model requirements
 
